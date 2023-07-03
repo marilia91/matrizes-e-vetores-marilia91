@@ -1,0 +1,134 @@
+{
+  "tests": [
+    {
+      "name": "Testa Matriz Soma",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "python -m unittest test.matrix.test_soma",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "Testa Matriz Norma",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "python -m unittest test.matrix.test_norma",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "Testa Matriz Multiplicacao",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "python -m unittest test.matrix.test_multiplicacao",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 9
+    },
+    {
+      "name": "Testa Matriz Transposta",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "python -m unittest test.matrix.test_transposta",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 9
+    },
+    {
+      "name": "Testa Matriz Simetrica",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "python -m unittest test.matrix.test_simetrica",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 9
+    },
+    {
+      "name": "Testa Matriz Multiplicacao por Escalar",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "python -m unittest test.matrix.test_multiplicacao_por_escalar",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "Testa Vetor Soma",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "python -m unittest test.vector.test_soma",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "Testa Vetor Multiplicacao por Escalar",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "python -m unittest test.vector.test_multiplicacao_por_escalar",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "Testa Vetor Norma",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "python -m unittest test.vector.test_norma",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "Testa Vetor Produto Diadico",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "python -m unittest test.vector.test_produto_diadico",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 9
+    },
+    {
+      "name": "Testa Vetor Produto Interno",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "python -m unittest test.vector.test_produto_interno",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "Testa Vetor Produto Vetorial",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "python -m unittest test.vector.test_produto_vetorial",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "Formatacao e Linting",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "python -m black --check --diff . && python -m isort --profile black --check --diff . && python -m pylint **/*.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": null
+    }
+  ]
+}
