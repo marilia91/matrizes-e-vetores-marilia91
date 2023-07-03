@@ -1,0 +1,25 @@
+{
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "editor.formatOnSave": true,
+  "isort.args": [
+    "--profile",
+    "black"
+  ],
+  "python.formatting.provider": "none",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.testing.unittestEnabled": true,
+  "cSpell.words": [
+    "diadico",
+    "impossivel",
+    "incompativel",
+    "multiplicacao",
+    "simetrica"
+  ]
+}
